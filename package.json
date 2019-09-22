@@ -1,7 +1,7 @@
 {
   "name": "HackerBay-Interview-Round-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "A maze problem game",
   "main": "index.js",
   "babel": {
     "presets": [
@@ -10,8 +10,7 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
