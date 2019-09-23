@@ -1,10 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { SquareContainer } from './styledSquare';
-import green from '../../public/images/green.jpg'
-import red from '../../public/images/red.png'
 
+/**
+ * A functional based component to display the squares
+ * @param {object} props - props passed down to the component
+ */
 const Square = (props) => {
-  const { x_axis, y_axis, selected, mainSquare } = props;
+  const { selected, mainSquare } = props;
   return (
       <SquareContainer 
         selected={selected} 
@@ -12,5 +15,10 @@ const Square = (props) => {
       />
   );
 };
+
+Square.propTypes = {
+  selected: PropTypes.bool,
+  mainSquare: PropTypes.bool,
+}
 
 export default Square;
