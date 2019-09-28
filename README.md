@@ -1,5 +1,3 @@
-# HackerBay-Interview-Round-2
-
 ## Maze Problem game
 
 ### To test locally
